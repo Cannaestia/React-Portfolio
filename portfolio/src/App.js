@@ -10,7 +10,7 @@ import Resume from './pages/Resume';
 import Footer from './components/Footer'
 import Header from './components/Header';
 
-
+// page state
 function renderPage(currentPage) {
   if (currentPage === 'About') { 
     return  <About />
@@ -25,7 +25,7 @@ function renderPage(currentPage) {
      return <Resume />
    }
 };
-
+// page paths/routes
 function App() {
  
 return (

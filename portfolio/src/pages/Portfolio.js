@@ -1,5 +1,5 @@
 import React from 'react'
-
+// controls the pictures and information
 const callouts = [
   {
     name: '',

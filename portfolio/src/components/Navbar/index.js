@@ -9,7 +9,7 @@ function classNames(...classes) {
   return classList;
 
 }
-
+// sets the buttons at the top to navigate to the correct places
 const navigation = [
   { name: 'About', href: '/', current: false },
   { name: 'Portfolio', href: '/Portfolio', current: false },
