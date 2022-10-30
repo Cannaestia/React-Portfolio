@@ -14,10 +14,10 @@
 This is my personal portfolio built with React!
 
 ## Visuals
-![About](portfolio/images/React-App.png)
-![Portfoio](portfolio/images/React-App2.png)
-![Resume](portfolio/images/React-App3.png)
-![Contact](portfolio/images/React-App4.png)
+![About](/images/React-App.png)
+![Portfoio](/images/React-App2.png)
+![Resume](/images/React-App3.png)
+![Contact](/images/React-App4.png)
 
 
 ## Installation
