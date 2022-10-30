@@ -11,20 +11,20 @@ import Footer from './components/Footer'
 import Header from './components/Header';
 
 
-// function renderPage(currentPage) {
-//   if (currentPage === 'About') { 
-//     return  <About />
-//    }
-//    if (currentPage === 'Contact') { 
-//      return <Contact />
-//    }
-//    if (currentPage === 'Portfolio') { 
-//      return <Portfolio />
-//    }
-//    if (currentPage === 'Resume') { 
-//      return <Resume />
-//    }
-// };
+function renderPage(currentPage) {
+  if (currentPage === 'About') { 
+    return  <About />
+   }
+   if (currentPage === 'Contact') { 
+     return <Contact />
+   }
+   if (currentPage === 'Portfolio') { 
+     return <Portfolio />
+   }
+   if (currentPage === 'Resume') { 
+     return <Resume />
+   }
+};
 
 function App() {
  

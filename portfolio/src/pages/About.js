@@ -22,8 +22,13 @@ function About() {
                 <span className="block text-cyan-500 xl:inline">Software Developer</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat fugiat aliqua.
+                Hi, my name is Jennifer and I'm an animator aspiring to dive into the world of Software Development! I currently
+                create gaming animations on YouTube and Tik Tok through my personal studio called Pure Imagination Studios. I did a little
+                bit of work as well through out the NFT and cryptocurrency space. 
+              </p>
+              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                 I recently graduated from UNC Charlotte's coding bootcamp (hopefully) and hope
+                to combine the world of animation into the software development field.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
