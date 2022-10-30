@@ -62,7 +62,7 @@ const Resume = () => {
                     <span className="ml-2 w-0 flex-1 truncate">resume_back_end_developer.pdf</span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    <a href="https://drive.google.com/file/d/1jFff6nILkN7QGrTVrajhvNZmS0st24W1/view?usp=share_link" className="font-medium text-indigo-600 hover:text-indigo-500">
                       Download
                     </a>
                   </div>

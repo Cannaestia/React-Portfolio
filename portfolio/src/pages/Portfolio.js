@@ -5,15 +5,8 @@ const callouts = [
     name: '',
     description: '',
     imageSrc: 'https://i.imgur.com/lvXrUOo.png',
-    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    imageAlt: 'GitHub.',
     href: 'https://github.com/Cannaestia?tab=repositories',
-  },
-  {
-    name: '',
-    description: '',
-    imageSrc: 'https://i.imgur.com/Yuuuns2.jpg',
-    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-    href: 'https://supernaldeity.github.io/gamers-checkpoint/',
   },
   {
     name: '',
@@ -29,6 +22,41 @@ const callouts = [
     imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
     href: 'https://www.youtube.com/cannaestia',
   },
+  {
+    name: '',
+    description: '',
+    imageSrc: 'https://i.imgur.com/Yuuuns2.jpg',
+    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    href: 'https://supernaldeity.github.io/gamers-checkpoint/',
+  },
+  {
+    name: '',
+    description: '',
+    imageSrc: 'https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg',
+    imageAlt: 'Weather App.',
+    href: 'https://github.com/Cannaestia/Weather-API',
+  },
+  {
+    name: '',
+    description: '',
+    imageSrc: 'https://i.imgur.com/ejUjmWq.jpg',
+    imageAlt: 'Harry Potter Quiz.',
+    href: 'https://github.com/Cannaestia/Quiz',
+  },
+  {
+    name: '',
+    description: '',
+    imageSrc: 'https://i.imgur.com/B7FYOYu.jpg',
+    imageAlt: 'Team Profile.',
+    href: 'https://github.com/Cannaestia/Team-profile-generator',
+  },
+  {
+    name: '',
+    description: '',
+    imageSrc: 'https://i.imgur.com/2ognqI9.jpg',
+    imageAlt: 'Social Network API.',
+    href: 'https://github.com/Cannaestia/Social-Network-API',
+  },
 ]
 
 
@@ -40,12 +68,13 @@ const Portfolio = () => {
                 <span className="block xl:inline">My</span>{' '}
                 <span className="block text-cyan-500 xl:inline">Portfolio</span>
               </h1>
+                <p className='text-center'>Click any box to view the Application</p>
       <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
 
         <div className=" space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
           {callouts.map((callout) => (
             <div key={callout.name} className="group relative">
-              <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+              <div className="text-center relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                 <img
                   src={callout.imageSrc}
                   alt={callout.imageAlt}

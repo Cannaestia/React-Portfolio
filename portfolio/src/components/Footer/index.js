@@ -5,15 +5,23 @@ const Footer = () => {
     <footer className="footer p-4 bg-white shadow md:px-6 md:py-8 bg-zinc-800">
     <div className="sm:flex sm:items-center sm:justify-center">
         <a href="https://www.youtube.com/cannaestia" className="flex items-center mb-4 sm:mb-0">
-            <img src="https://img.icons8.com/3d-fluency/344/youtube-play.png" className="mr-3 h-8" alt="Facebook Logo" />
+            <img src="https://img.icons8.com/nolan/344/youtube-play.png" className="mr-3 h-8" alt="YouTube Logo" />
         </a>
         <a href="https://www.tiktok.com/@cannaestia" className="flex items-center mb-4 sm:mb-0">
             <img src="https://img.icons8.com/nolan/344/tiktok.png" className="mr-3 h-8" alt="TikTok Logo" />
         </a>
         
         <a href="https://github.com/Cannaestia?tab=repositories" className="flex items-center mb-4 sm:mb-0">
-            <img src="https://img.icons8.com/nolan/344/github.png" className="mr-3 h-8" alt="Instagram Logo" />
+            <img src="https://img.icons8.com/nolan/344/github.png" className="mr-3 h-8" alt="GitHub Logo" />
         </a>
+        <a href="https://www.linkedin.com/in/jennifer-arnold-445644255/" className="flex items-center mb-4 sm:mb-0">
+            <img src="https://img.icons8.com/nolan/344/linkedin.png" className="mr-3 h-8" alt="GitHub Logo" />
+        </a>
+        <a href="https://twitter.com/cannaestia" className="flex items-center mb-4 sm:mb-0">
+            <img src="https://img.icons8.com/nolan/344/twitter.png" className="mr-3 h-8" alt="Twitter" />
+        </a>
+
+
         {/* <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
                 <a href="https://www.facebook.com/b2trbullies/" className="mr-4 hover:underline md:mr-6 ">About</a>
