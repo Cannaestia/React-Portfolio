@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar';
 
-const Header = () => {
+const Header = ({ currentPage, setCurrentPage}) => {
   return (
     <header>
       <div>
@@ -9,7 +9,7 @@ const Header = () => {
       </div>
       <div>
        
-        <Navbar />
+        <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </div>
     </header>
   );

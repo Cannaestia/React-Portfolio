@@ -11,13 +11,13 @@ function classNames(...classes) {
 }
 // sets the buttons at the top to navigate to the correct places
 const navigation = [
-  { name: 'About', href: '/', current: false },
-  { name: 'Portfolio', href: '/Portfolio', current: false },
-  { name: 'Resume', href: '/Resume', current: false },
-  { name: 'Contact', href: '/Contact', current: false },
+  { name: 'About' },
+  { name: 'Portfolio' },
+  { name: 'Resume' },
+  { name: 'Contact' },
 ]
 
-function Navbar() {
+function Navbar({ currentPage, setCurrentPage}) {
   return (
     <Disclosure as="nav" className="bg-zinc-800">
       {({ open }) => (
@@ -50,19 +50,23 @@ function Navbar() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
+
                     {navigation.map((item) => (
+                      // eslint-disable-next-line jsx-a11y/anchor-is-valid
                       <a
                         key={item.name}
-                        href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white hover:animate-bounce',
+                          currentPage === item.name ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white hover:animate-bounce',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
-                        aria-current={item.current ? 'page' : undefined}
+                        onClick={() => setCurrentPage(item.name)}
+                        aria-current={currentPage === item.name ? 'page' : undefined}
                       >
                         {item.name}
                       </a>
                     ))}
+
+                    
                   </div>
                 </div>
               </div>
@@ -86,13 +90,11 @@ function Navbar() {
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
-                  as="a"
-                  href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    currentPage === item.name ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                     'block px-3 py-2 rounded-md text-base font-medium'
                   )}
-                  aria-current={item.current ? 'page' : undefined}
+                  aria-current={currentPage === item.name ? 'page' : undefined}
                 >
                   {item.name}
                 </Disclosure.Button>
