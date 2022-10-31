@@ -3,56 +3,56 @@ import React from 'react'
 const callouts = [
   {
     name: '',
-    description: '',
+    description: 'GitHub',
     imageSrc: 'https://i.imgur.com/lvXrUOo.png',
     imageAlt: 'GitHub.',
     href: 'https://github.com/Cannaestia?tab=repositories',
   },
   {
     name: '',
-    description: '',
+    description: 'Tik Tok',
     imageSrc: 'https://i.imgur.com/GNibuOu.jpg',
-    imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
+    imageAlt: 'Tik Tok.',
     href: 'https://www.tiktok.com/@cannaestia',
   },
   {
     name: '',
-    description: '',
+    description: 'YouTube',
     imageSrc: 'https://i.imgur.com/RgE3w0U.jpg',
-    imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
+    imageAlt: 'YouTube.',
     href: 'https://www.youtube.com/cannaestia',
   },
   {
     name: '',
-    description: '',
+    description: 'Gamers Checkpoint',
     imageSrc: 'https://i.imgur.com/Yuuuns2.jpg',
-    imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
+    imageAlt: 'Gamers Checkpoint',
     href: 'https://supernaldeity.github.io/gamers-checkpoint/',
   },
   {
     name: '',
-    description: '',
+    description: 'Weather Application',
     imageSrc: 'https://t4.ftcdn.net/jpg/02/66/38/15/360_F_266381525_alVrbw15u5EjhIpoqqa1eI5ghSf7hpz7.jpg',
     imageAlt: 'Weather App.',
     href: 'https://github.com/Cannaestia/Weather-API',
   },
   {
     name: '',
-    description: '',
+    description: 'Harry Potter Quiz',
     imageSrc: 'https://i.imgur.com/ejUjmWq.jpg',
     imageAlt: 'Harry Potter Quiz.',
     href: 'https://github.com/Cannaestia/Quiz',
   },
   {
     name: '',
-    description: '',
+    description: 'Team Profile Generator',
     imageSrc: 'https://i.imgur.com/B7FYOYu.jpg',
     imageAlt: 'Team Profile.',
     href: 'https://github.com/Cannaestia/Team-profile-generator',
   },
   {
     name: '',
-    description: '',
+    description: 'Social Network API',
     imageSrc: 'https://i.imgur.com/2ognqI9.jpg',
     imageAlt: 'Social Network API.',
     href: 'https://github.com/Cannaestia/Social-Network-API',
@@ -81,13 +81,13 @@ const Portfolio = () => {
                   className="h-full w-full object-cover object-center"
                 />
               </div>
-              <h3 className="mt-6 text-sm text-gray-500">
+              <h3 className="mt-6 text-md text-gray-500">
                 <a href={callout.href}>
-                  <span className="absolute inset-0" />
+                
                   {callout.name}
                 </a>
               </h3>
-              <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+              <p className="mb-6 text-center font-semibold text-gray-900">{callout.description}</p>
             </div>
           ))}
         </div>
