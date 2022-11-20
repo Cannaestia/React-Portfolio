@@ -61,7 +61,7 @@ const Resume = () => {
                     <span className="ml-2 w-0 flex-1 truncate">Jennifer_Arnold_Resume.pdf</span>
                   </div>
                   <div className="ml-4 flex-shrink-0">
-                    <a href="https://drive.google.com/file/d/1iw7K2Tlj0fs1QIvcsaax2jLjgrLSLwpG/view?usp=share_link" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    <a href="https://drive.google.com/file/d/1iw7K2Tlj0fs1QIvcsaax2jLjgrLSLwpG/view?usp=share_link" target="_blank" className="font-medium text-indigo-600 hover:text-indigo-500">
                       Download
                     </a>
                   </div>
