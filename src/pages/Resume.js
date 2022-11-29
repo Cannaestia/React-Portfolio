@@ -4,7 +4,7 @@ import { PaperClipIcon } from '@heroicons/react/20/solid'
 const Resume = () => {
   return (
     <form action="https://public.herotofu.com/v1/5ca2d330-685f-11ed-bd0a-c1ef0a3c8340" method="post">
-    <div className="bg-[url('https://i.imgur.com/DOWkPg3.jpg')] bg-fixed">
+    <div className="bg-[url('https://i.imgur.com/DOWkPg3.jpg')] bg-fixed bg-no-repeat bg-cover grow flex pb-12 pt-12">
     <div className="max-w-3xl mx-auto mt-10 sm:mt-0 bg-white">
       <div className="px-4 py-5 sm:px-6">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl text-center mt-5">

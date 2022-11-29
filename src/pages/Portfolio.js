@@ -60,7 +60,7 @@ const callouts = [
 ]
 const Portfolio = () => {
   return (
-    <div className="bg-[url('https://i.imgur.com/DOWkPg3.jpg')] bg-fixed">
+    <div className="bg-[url('https://i.imgur.com/DOWkPg3.jpg')] bg-fixed bg-no-repeat bg-cover">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl text-center mt-5">
                 <span className="block xl:inline">My</span>{' '}

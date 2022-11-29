@@ -16,7 +16,7 @@ function About() {
           </svg>
 
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="sm:text-center lg:text-left">
+            <div className="sm:text-center lg:text-left pt-20 pb-20">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline ml-12">Jennifer Arnold</span>{' '}
                 <span className="block text-cyan-500 xl:inline">Software Developer</span>
@@ -42,7 +42,7 @@ function About() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full"
-          src="https://i.imgur.com/izxdCmK.jpg"
+          src="https://i.imgur.com/jgLQBGK.jpg"
           alt=""
         />
       </div>

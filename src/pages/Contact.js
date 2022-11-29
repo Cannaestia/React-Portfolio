@@ -8,7 +8,7 @@ const notificationMethods = [
 function Contact() {
   return (
     <>
-      <div className="bg-[url('https://i.imgur.com/DOWkPg3.jpg')] bg-fixed grow flex">
+      <div className="bg-[url('https://i.imgur.com/DOWkPg3.jpg')] bg-fixed bg-no-repeat bg-cover grow flex pt-12 pb-12">
         <div className="max-w-3xl mx-auto mt-10 sm:mt-0 bg-white">
           <div className="mt-5 md:col-span-2 md:mt-0">
             <form
